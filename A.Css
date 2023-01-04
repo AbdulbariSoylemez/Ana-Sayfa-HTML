@@ -1,0 +1,45 @@
+.continer{/**//* biz baş kısımının kontiner kısmını belirledik*/
+    width: 80%;
+    background-color: rgb(9, 219, 37);
+    margin:auto;/*kontiner kısmının ortaladık*/
+
+}
+header{
+    height: 100px;
+    border-bottom: 3px solid rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.6);
+}
+header nav{
+    display: flex;/*yana atmak*/
+    justify-content: space-between;/*linkleri en sağa attı*/
+    align-items: center;
+    height: 100%;
+}
+header nav .logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;/*linklerin yan yana gelmesini sağlıyor*/
+    column-gap: 40px;
+}
+nav ul a{
+    
+    text-decoration: none;
+    color: black;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+}
+nav .menu .menuButon{
+   color: rgb(230, 121, 20);
+   text-decoration: none;
+   background-color: rgba(rgb(0, 0, 0), 0,0,0, rgb(0, 0, 7), 0.06);
+   padding: 23px 67px;
+   border-radius: 56px;
+
+}

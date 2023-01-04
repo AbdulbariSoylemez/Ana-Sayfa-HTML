@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hava durumu sitesi</title>
+   <link rel="stylesheet" href="A.Css">
+
+</head>
+
+<body>
+   <style>
+      body {
+         background-size: cover;
+         background-repeat: no-repeat;
+         /* her hangi bir yenileme işlemi yapmıyacak*/
+         animation: background;
+         /*animasyou aktifleştirdik*/
+         animation-iteration-count: infinite;
+         /*sonsuz döngü yaptık animasyon gibi görünsün diye*/
+         animation-duration: 30s;
+         background-color: brown;
+      }
+
+      @keyframes background {
+
+         /* resimler ile bir animasyon yapacaz*/
+         0% {
+            background-image: url(./img/ilkbahar2.jpg);
+         }
+
+         25% {
+            background-image: url(./img/Kış.jpg);
+         }
+
+         50% {
+            background-image: url(./img/Sonbahar.jpg);
+         }
+
+         75% {
+            background-image: url(./img/Yaz.jpg);
+         }
+
+         100% {
+            background-image: url(./img/ilkbahar2.jpg);
+         }
+      }
+   </style>
+   <div>
+
+   </div>
+
+
+   <!-- BAŞ KISIM-->
+
+   <HEAder class="continer">
+
+      <nav>
+         <div class="logo">
+            <a href="#">logo</a>
+         </div>
+         <div class="menu">
+            <ul>
+               <li><a href="#">HOME</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">contact</a></li>
+            </ul>
+            <a href="#" class="menuButon">NEW link</a>
+         </div>
+
+      </nav>
+   </HEAder>
+   <!-- BAŞ KISIM-->
+
+</body>
+
+</html>
